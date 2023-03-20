@@ -1,0 +1,1 @@
+Link do Docker Hub: https://hub.docker.com/repository/docker/wagnerfrana/golangapp/general
