@@ -26,7 +26,7 @@ ENV CGO_ENABLED=0
 
 ### Build the Go app for a linux OS
 ### 'scratch' and 'alpine' both are Linux distributions
-RUN GOOS=linux go build ./hello.go
+RUN go build -ldflags '-s -w' ./hello.go
 
 ##### Stage 2 #####
 
